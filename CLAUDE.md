@@ -79,6 +79,29 @@ embeddings/minuto y **1000/día**). Guarda el progreso y **se reanuda** si se co
   estable fue **`gemini-flash-lite-latest`**. Si tu key sí tiene acceso a un
   modelo mejor, cámbialo en `.env` (no hay que tocar código).
 
+### ⚠️ PENDIENTE DE CORREGIR: modelo de chat por defecto incorrecto
+
+El modelo `gemini-flash-lite-latest` solo se configuró en el `.env` **local** del
+PC donde se desarrolló (no se sube al repo). Lo que sí está en el repo todavía
+apunta a `gemini-2.5-flash`, que con la key de prueba devolvía **404**:
+
+| Archivo | Línea | Valor actual (incorrecto) |
+|---|---|---|
+| `backend/.env.example` | `GEMINI_CHAT_MODEL=` | `gemini-2.5-flash` |
+| `backend/gemini.js` | ~25, `chatModel()` | `... \|\| "gemini-2.5-flash"` |
+| `backend/server.js` | ~83, `/api/health` | `... \|\| "gemini-2.5-flash"` |
+
+**Síntoma:** quien clone el repo y copie `.env.example` a `.env` obtiene en la
+primera consulta `Gemini 404 ... models/gemini-2.5-flash is no longer available
+to new users` (`/api/health` sí responde `ok`, el fallo aparece en
+`/api/consultar`).
+
+**Corrección:** cambiar esos tres valores a `gemini-flash-lite-latest` (o al
+modelo que sí tenga disponible la key de quien lo despliegue; se puede listar con
+`GET https://generativelanguage.googleapis.com/v1beta/models`), probar
+`/api/consultar` y subir el commit a esta rama. Hasta entonces, la tabla de
+modelos de arriba describe lo que **debe** usarse, no lo que hay en el código.
+
 ---
 
 ## Estructura de la app
