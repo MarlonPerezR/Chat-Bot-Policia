@@ -1,0 +1,1206 @@
+{
+  "terminos": [
+    {
+      "termino": "convivencia",
+      "frecuencia": 209,
+      "n_articulos": 104,
+      "articulos": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6",
+        "7",
+        "10",
+        "11",
+        "12",
+        "16",
+        "18",
+        "19",
+        "20",
+        "24",
+        "25"
+      ],
+      "definicion": {
+        "identificador": "art_5",
+        "texto": "Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico."
+      },
+      "uso": null
+    },
+    {
+      "termino": "privacidad",
+      "frecuencia": 3,
+      "n_articulos": 3,
+      "articulos": [
+        "31",
+        "32",
+        "206"
+      ],
+      "definicion": {
+        "identificador": "art_32",
+        "texto": "Para efectos de este Código, se entiende por privacidad de las personas el derecho de ellas a satisfacer sus necesidades y desarrollar sus actividades en un ámbito que le sea exclusivo y por lo tanto considerado como privado."
+      },
+      "uso": null
+    },
+    {
+      "termino": "espacio público",
+      "frecuencia": 56,
+      "n_articulos": 34,
+      "articulos": [
+        "2",
+        "30",
+        "32",
+        "33",
+        "34",
+        "36",
+        "40",
+        "47",
+        "49",
+        "50",
+        "51",
+        "53",
+        "54",
+        "60",
+        "64"
+      ],
+      "definicion": {
+        "identificador": "art_139",
+        "texto": "Es el conjunto de muebles e inmuebles públicos, bienes de uso público, bienes fiscales, áreas protegidas y de especial importancia ecológica y los elementos arquitectónicos y naturales de los inmuebles privados, destinados por su naturaleza, usos o afectación, a la satisfacción de necesidades colectivas que trascienden los límites de los intereses individuales de todas las personas en el territorio nacional."
+      },
+      "uso": null
+    },
+    {
+      "termino": "bienes fiscales",
+      "frecuencia": 7,
+      "n_articulos": 6,
+      "articulos": [
+        "77",
+        "135",
+        "139",
+        "140",
+        "225",
+        "226"
+      ],
+      "definicion": {
+        "identificador": "art_139_par_1",
+        "texto": "Para efectos de este Código se entiende por bienes fiscales, además de los enunciados por el artículo 674 del Código Civil, los de propiedad de entidades de derecho público, cuyo uso generalmente no pertenece a todos los habitantes y sirven como medios necesarios para la prestación de las funciones y los servicios públicos, tales como los edificios, granjas experimentales, lotes de terreno destinados a obras de infraestructura dirigidas a la instalación o dotación de servicios públicos y los…"
+      },
+      "uso": null
+    },
+    {
+      "termino": "bienes de uso público",
+      "frecuencia": 7,
+      "n_articulos": 5,
+      "articulos": [
+        "77",
+        "135",
+        "139",
+        "181",
+        "226"
+      ],
+      "definicion": {
+        "identificador": "art_139_par_2",
+        "texto": "Para efectos de este Código se entiende por bienes de uso público los que permanentemente están al uso, goce, disfrute de todos los habitantes de un territorio, como por ejemplo los parques, caminos o vías públicas y las aguas que corren."
+      },
+      "uso": null
+    },
+    {
+      "termino": "aglomeraciones de público",
+      "frecuencia": 111,
+      "n_articulos": 32,
+      "articulos": [
+        "27",
+        "33",
+        "47",
+        "48",
+        "50",
+        "51",
+        "52",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "68",
+        "69"
+      ],
+      "definicion": {
+        "identificador": "art_47",
+        "texto": "Para efectos de las obligaciones relacionadas con el derecho de reunión, entiéndase como aglomeración de público toda reunión de un número plural de personas producto de una convocatoria individual o colectiva."
+      },
+      "uso": null
+    },
+    {
+      "termino": "plan de emergencia y contingencia",
+      "frecuencia": 7,
+      "n_articulos": 5,
+      "articulos": [
+        "63",
+        "64",
+        "65",
+        "68",
+        "73"
+      ],
+      "definicion": {
+        "identificador": "art_64",
+        "texto": "Se entiende por plan de emergencia y contingencia el documento básico que prepara el organizador de espectáculos, actividades culturales en el espacio público, mediante el cual se señalan los lineamientos generales para proyectar, presentar y cumplir su realización."
+      },
+      "uso": null
+    },
+    {
+      "termino": "estacionamiento",
+      "frecuencia": 7,
+      "n_articulos": 3,
+      "articulos": [
+        "32",
+        "89",
+        "90"
+      ],
+      "definicion": {
+        "identificador": "art_89",
+        "texto": "Son los bienes públicos o privados, destinados y autorizados de acuerdo con lo dispuesto en las normas de uso del suelo y en las normas que lo desarrollen o complementen por los concejos distritales o municipales, para el estacionamiento y depósito temporal de vehículos automotores, motos o bicicletas, a título oneroso o gratuito."
+      },
+      "uso": null
+    },
+    {
+      "termino": "medio de transporte",
+      "frecuencia": 19,
+      "n_articulos": 10,
+      "articulos": [
+        "30",
+        "123",
+        "124",
+        "134",
+        "146",
+        "147",
+        "149",
+        "158",
+        "160",
+        "202"
+      ],
+      "definicion": {
+        "identificador": "art_160_par_1",
+        "texto": "Se entiende por medio de transporte todo medio que permita la movilización o el desplazamiento de una persona o grupo de personas, de un lugar a otro, independientemente de sus características o tipo de tracción utilizada."
+      },
+      "uso": null
+    },
+    {
+      "termino": "equipo terminal móvil",
+      "frecuencia": 16,
+      "n_articulos": 3,
+      "articulos": [
+        "87",
+        "95",
+        "164"
+      ],
+      "definicion": {
+        "identificador": "art_95_par_1",
+        "texto": "Se entiende por equipo terminal móvil, todo dispositivo que posea un IMEI (Identificador Internacional de Equipo Móvil), por sus siglas en inglés, o aquel identificador que cumpla una función equivalente a este, y por medio del cual el usuario accede a las redes de telecomunicaciones móviles para la prestación de servicios de comunicaciones de voz y/o datos."
+      },
+      "uso": null
+    },
+    {
+      "termino": "orden de policía",
+      "frecuencia": 16,
+      "n_articulos": 10,
+      "articulos": [
+        "35",
+        "38",
+        "149",
+        "150",
+        "156",
+        "176",
+        "186",
+        "188",
+        "222",
+        "223"
+      ],
+      "definicion": {
+        "identificador": "art_150",
+        "texto": "La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla."
+      },
+      "uso": null
+    },
+    {
+      "termino": "orden de comparendo",
+      "frecuencia": 12,
+      "n_articulos": 4,
+      "articulos": [
+        "154",
+        "180",
+        "219",
+        "223A"
+      ],
+      "definicion": {
+        "identificador": "art_218",
+        "texto": "Entiéndase por esta, la acción del personal uniformado de la Policía Nacional que consiste en entregar un documento oficial que contiene orden escrita o virtual para presentarse ante autoridad de Policía o cumplir medida correctiva."
+      },
+      "uso": null
+    },
+    {
+      "termino": "medida correctiva",
+      "frecuencia": 171,
+      "n_articulos": 87,
+      "articulos": [
+        "8",
+        "10",
+        "11",
+        "12",
+        "13",
+        "17",
+        "20",
+        "25",
+        "27",
+        "28",
+        "30",
+        "33",
+        "34",
+        "35",
+        "38"
+      ],
+      "definicion": {
+        "identificador": "art_172",
+        "texto": "Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia."
+      },
+      "uso": null
+    },
+    {
+      "termino": "medio de policía",
+      "frecuencia": 8,
+      "n_articulos": 4,
+      "articulos": [
+        "8",
+        "35",
+        "149",
+        "155"
+      ],
+      "definicion": {
+        "identificador": "art_149",
+        "texto": "Los medios de Policía son los instrumentos jurídicos con que cuentan las autoridades competentes para el cumplimiento efectivo de la función y actividad de Policía, así como para la imposición de las medidas correctivas contempladas en este Código."
+      },
+      "uso": null
+    },
+    {
+      "termino": "poder de policía",
+      "frecuencia": 2,
+      "n_articulos": 2,
+      "articulos": [
+        "11",
+        "16"
+      ],
+      "definicion": {
+        "identificador": "art_11",
+        "texto": "El poder de Policía es la facultad de expedir las normas en materia de Policía, que son de carácter general, impersonal y abstracto, ejercido por el Congreso de la República para regular el ejercicio de la libertad, los derechos y los deberes constitucionales, para la convivencia y establecer los medios y las medidas correctivas en caso de su incumplimiento."
+      },
+      "uso": null
+    },
+    {
+      "termino": "función de policía",
+      "frecuencia": 5,
+      "n_articulos": 5,
+      "articulos": [
+        "20",
+        "199",
+        "201",
+        "205",
+        "206"
+      ],
+      "definicion": {
+        "identificador": "art_16",
+        "texto": "Consiste en la facultad de hacer cumplir las disposiciones dictadas en ejercicio del poder de Policía, mediante la expedición de reglamentos generales y de acciones apropiadas para garantizar la convivencia."
+      },
+      "uso": null
+    },
+    {
+      "termino": "actividad de policía",
+      "frecuencia": 18,
+      "n_articulos": 15,
+      "articulos": [
+        "1",
+        "19",
+        "20",
+        "92",
+        "93",
+        "94",
+        "95",
+        "101",
+        "110",
+        "149",
+        "158",
+        "160",
+        "169",
+        "211",
+        "235"
+      ],
+      "definicion": {
+        "identificador": "art_20",
+        "texto": "Es el ejercicio de materialización de los medios y medidas correctivas, de acuerdo con las atribuciones constitucionales, legales y reglamentarias conferidas a los uniformados de la Policía Nacional, para concretar y hacer cumplir las decisiones dictadas en ejercicio del poder y la función de Policía, a las cuales está subordinada."
+      },
+      "uso": null
+    },
+    {
+      "termino": "amonestación",
+      "frecuencia": 30,
+      "n_articulos": 15,
+      "articulos": [
+        "27",
+        "33",
+        "39",
+        "40",
+        "44",
+        "59",
+        "74",
+        "94",
+        "100",
+        "101",
+        "111",
+        "146",
+        "173",
+        "209",
+        "210"
+      ],
+      "definicion": {
+        "identificador": "art_174",
+        "texto": "Es un llamado de atención en privado o en público con el objetivo de concientizar a la persona de la conducta realizada y de su efecto negativo para la convivencia, en procura de un reconocimiento de la conducta equivocada, el compromiso a futuro de no repetición y el respeto a las normas de convivencia."
+      },
+      "uso": null
+    },
+    {
+      "termino": "participación en programa comunitario o actividad pedagógica de convivencia",
+      "frecuencia": 43,
+      "n_articulos": 19,
+      "articulos": [
+        "27",
+        "35",
+        "39",
+        "45",
+        "59",
+        "74",
+        "92",
+        "101",
+        "111",
+        "115",
+        "116",
+        "140",
+        "173",
+        "180",
+        "183"
+      ],
+      "definicion": {
+        "identificador": "art_175",
+        "texto": "Es la obligación de participar en una actividad de interés público o programa pedagógico en materia de convivencia, organizado por la administración distrital o municipal, en todo caso tendrá una duración de hasta seis (6) horas."
+      },
+      "uso": null
+    },
+    {
+      "termino": "multa",
+      "frecuencia": 350,
+      "n_articulos": 56,
+      "articulos": [
+        "27",
+        "28",
+        "30",
+        "33",
+        "34",
+        "35",
+        "38",
+        "40",
+        "44",
+        "45",
+        "46",
+        "51",
+        "53",
+        "59",
+        "73"
+      ],
+      "definicion": {
+        "identificador": "art_180",
+        "texto": "Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varia el monto de la multa."
+      },
+      "uso": null
+    },
+    {
+      "termino": "multa general",
+      "frecuencia": 236,
+      "n_articulos": 39,
+      "articulos": [
+        "27",
+        "28",
+        "30",
+        "33",
+        "34",
+        "35",
+        "38",
+        "40",
+        "44",
+        "45",
+        "46",
+        "53",
+        "59",
+        "74",
+        "77"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_33_par_1",
+        "texto": "Multa General tipo 3; Disolución de reunión o actividad que involucra aglomeraciones de público no complejas."
+      }
+    },
+    {
+      "termino": "multa especial",
+      "frecuencia": 46,
+      "n_articulos": 6,
+      "articulos": [
+        "51",
+        "73",
+        "135",
+        "140",
+        "180",
+        "181"
+      ],
+      "definicion": {
+        "identificador": "art_181",
+        "texto": "Las multas especiales se clasifican en tres tipos:"
+      },
+      "uso": null
+    },
+    {
+      "termino": "decomiso",
+      "frecuencia": 15,
+      "n_articulos": 8,
+      "articulos": [
+        "93",
+        "101",
+        "105",
+        "115",
+        "134",
+        "140",
+        "173",
+        "206"
+      ],
+      "definicion": {
+        "identificador": "art_179",
+        "texto": "Es la privación de manera definitiva de la tenencia o la propiedad de bienes muebles no sujetos a registro, utilizados por una persona en comportamientos contrarios a las normas de convivencia, mediante acto motivado."
+      },
+      "uso": null
+    },
+    {
+      "termino": "destrucción de bien",
+      "frecuencia": 58,
+      "n_articulos": 19,
+      "articulos": [
+        "27",
+        "28",
+        "30",
+        "34",
+        "38",
+        "59",
+        "74",
+        "92",
+        "93",
+        "95",
+        "103",
+        "105",
+        "110",
+        "140",
+        "173"
+      ],
+      "definicion": {
+        "identificador": "art_192",
+        "texto": "Consiste en destruir por motivos de interés general un bien mueble cuando implique un riesgo o amenaza a la convivencia o al ambiente, o sea utilizado de manera ilegal con perjuicio a terceros."
+      },
+      "uso": null
+    },
+    {
+      "termino": "demolición de obra",
+      "frecuencia": 8,
+      "n_articulos": 4,
+      "articulos": [
+        "135",
+        "173",
+        "193",
+        "206"
+      ],
+      "definicion": {
+        "identificador": "art_194",
+        "texto": "Consiste en la destrucción de edificación desarrollada con violación de las normas urbanísticas, ambientales o de ordenamiento territorial, o cuando la edificación amenaza ruina, para facilitar la evacuación de personas, para superar o evitar incendios, o para prevenir una emergencia o calamidad pública."
+      },
+      "uso": null
+    },
+    {
+      "termino": "suspensión temporal de actividad",
+      "frecuencia": 105,
+      "n_articulos": 18,
+      "articulos": [
+        "30",
+        "34",
+        "38",
+        "44",
+        "88",
+        "92",
+        "93",
+        "94",
+        "95",
+        "100",
+        "101",
+        "102",
+        "105",
+        "110",
+        "115"
+      ],
+      "definicion": {
+        "identificador": "art_196",
+        "texto": "Es el cese por un término de entre tres (3) a diez (10) días proporcional a la gravedad de la infracción, de una actividad económica o sin ánimo de lucro, o que siendo privada ofrezca servicios al público a la que está dedicada una persona natural o jurídica."
+      },
+      "uso": null
+    },
+    {
+      "termino": "suspensión definitiva de actividad",
+      "frecuencia": 22,
+      "n_articulos": 8,
+      "articulos": [
+        "38",
+        "46",
+        "92",
+        "95",
+        "105",
+        "110",
+        "173",
+        "206"
+      ],
+      "definicion": {
+        "identificador": "art_197",
+        "texto": "Es el cese definitivo de una actividad económica, formal o informal, con o sin ánimo de lucro, o que siendo privada ofrezca servicios al público a la que está dedicada una persona natural o jurídica; comprende la suspensión definitiva de la autorización o permiso dado a la persona o al establecimiento respectivo, para el desarrollo de la actividad."
+      },
+      "uso": null
+    },
+    {
+      "termino": "remoción de bienes",
+      "frecuencia": 15,
+      "n_articulos": 9,
+      "articulos": [
+        "27",
+        "28",
+        "135",
+        "140",
+        "144",
+        "173",
+        "206",
+        "209",
+        "210"
+      ],
+      "definicion": {
+        "identificador": "art_187",
+        "texto": "Es la orden dada a una persona para que remueva de manera definitiva bienes muebles de su propiedad, bajo su posesión, tenencia o bajo su responsabilidad cuando contraríen las normas de convivencia."
+      },
+      "uso": null
+    },
+    {
+      "termino": "inutilización de bienes",
+      "frecuencia": 12,
+      "n_articulos": 6,
+      "articulos": [
+        "103",
+        "105",
+        "173",
+        "209",
+        "210",
+        "222"
+      ],
+      "definicion": {
+        "identificador": "art_191",
+        "texto": "Consiste en la inhabilitación total de los bienes empleados para actividades ilícitas que atenten contra los recursos naturales, o ingresen, permanezcan, operen, en áreas protegidas y de especial importancia ecológica."
+      },
+      "uso": null
+    },
+    {
+      "termino": "restitución y protección de bienes inmuebles",
+      "frecuencia": 8,
+      "n_articulos": 5,
+      "articulos": [
+        "77",
+        "103",
+        "105",
+        "173",
+        "206"
+      ],
+      "definicion": {
+        "identificador": "art_190",
+        "texto": "Consiste en devolver la posesión o tenencia a quien tiene el legítimo derecho sobre los bienes inmuebles de particulares, baldíos, fiscales, de uso público, área protegida y de especial importancia ecológica¸ bienes de empresas destinados a servicios públicos cuando hayan sido ocupadas o perturbadas por vías de hecho."
+      },
+      "uso": null
+    },
+    {
+      "termino": "reparación de daños materiales",
+      "frecuencia": 21,
+      "n_articulos": 10,
+      "articulos": [
+        "27",
+        "28",
+        "51",
+        "77",
+        "78",
+        "135",
+        "140",
+        "146",
+        "173",
+        "206"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_27_par_1",
+        "texto": "Construcción, cerramiento, reparación o mantenimiento de inmuebles; Remoción de bienes; Reparación de daños materiales de muebles o inmuebles; Destrucción de bien."
+      }
+    },
+    {
+      "termino": "traslado por protección",
+      "frecuencia": 12,
+      "n_articulos": 2,
+      "articulos": [
+        "149",
+        "155"
+      ],
+      "definicion": {
+        "identificador": "art_155",
+        "texto": "Cuando la vida e integridad de una persona natural se encuentre en riesgo o peligro y no acepte la mediación policial corno mecanismo para la solución del desacuerdo, el personal uniformado de la Policía Nacional, podrá trasladarla para su protección en los siguientes casos:"
+      },
+      "uso": null
+    },
+    {
+      "termino": "centro de traslado por protección",
+      "frecuencia": 7,
+      "n_articulos": 1,
+      "articulos": [
+        "155"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_155_par_2",
+        "texto": "El personal uniformado de la Policía Nacional, entregara la persona a un familiar que asuma su protección, o en su defecto al coordinador del Centro de Traslado por Protección, para que garantice sus derechos, lo anterior con estricta observancia de lo dispuesto en el Parágrafo 4 del presente Artículo."
+      }
+    },
+    {
+      "termino": "retiro del sitio",
+      "frecuencia": 1,
+      "n_articulos": 1,
+      "articulos": [
+        "149"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_149_inc_2_num_2",
+        "texto": "Retiro del sitio."
+      }
+    },
+    {
+      "termino": "registro",
+      "frecuencia": 58,
+      "n_articulos": 28,
+      "articulos": [
+        "68",
+        "79",
+        "82",
+        "87",
+        "92",
+        "95",
+        "101",
+        "105",
+        "112",
+        "124",
+        "128",
+        "131",
+        "133",
+        "134",
+        "149"
+      ],
+      "definicion": {
+        "identificador": "art_158",
+        "texto": "Acción que busca identificar o encontrar elementos, para prevenir o poner fin a un comportamiento contrario a norma de convivencia o en desarrollo de actividad de Policía, la cual se realiza sobre las personas y medios de transporte, sus pertenencias y bienes muebles e inmuebles, de conformidad con lo establecido en la ley."
+      },
+      "uso": null
+    },
+    {
+      "termino": "uso de la fuerza",
+      "frecuencia": 9,
+      "n_articulos": 6,
+      "articulos": [
+        "10",
+        "56",
+        "140",
+        "149",
+        "162",
+        "166"
+      ],
+      "definicion": {
+        "identificador": "art_166",
+        "texto": "Es el medio material, necesario, proporcional y racional, empleado por el personal uniformado de la Policía Nacional, como último recurso físico para proteger la vida e integridad física de las personas incluida la de ellos mismos, sin mandamiento previo y escrito, para prevenir, impedir o superar la amenaza o perturbación de la convivencia y la seguridad pública, de conformidad con la ley."
+      },
+      "uso": null
+    },
+    {
+      "termino": "aprehensión con fin judicial",
+      "frecuencia": 1,
+      "n_articulos": 1,
+      "articulos": [
+        "149"
+      ],
+      "definicion": {
+        "identificador": "art_168",
+        "texto": "El personal uniformado de la Policía Nacional, podrá aprehender a una persona en sitio público o abierto al público, o privado, cuando sea señalada de haber cometido infracción penal o sorprendida en flagrante delito o cuando un particular haya pedido auxilio o la haya aprehendido, siempre que el solicitante concurra conjuntamente al despacho del funcionario que deba recibir formalmente la denuncia."
+      },
+      "uso": null
+    },
+    {
+      "termino": "incautación",
+      "frecuencia": 5,
+      "n_articulos": 4,
+      "articulos": [
+        "140",
+        "149",
+        "164",
+        "165"
+      ],
+      "definicion": {
+        "identificador": "art_164",
+        "texto": "Es la aprehensión material transitoria de bienes muebles, semovientes, flora y fauna silvestre que efectúa el personal uniformado de la Policía Nacional, cuya tenencia, venta, oferta, suministro, distribución, transporte, almacenamiento, importación, exportación, porte, conservación, elaboración o utilización, constituya comportamiento contrario a la convivencia y a la ley."
+      },
+      "uso": null
+    },
+    {
+      "termino": "proceso verbal inmediato",
+      "frecuencia": 3,
+      "n_articulos": 3,
+      "articulos": [
+        "157",
+        "210",
+        "222"
+      ],
+      "definicion": {
+        "identificador": "art_222",
+        "texto": "Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes:"
+      },
+      "uso": null
+    },
+    {
+      "termino": "proceso verbal abreviado",
+      "frecuencia": 6,
+      "n_articulos": 6,
+      "articulos": [
+        "222",
+        "223",
+        "223A",
+        "224",
+        "234A",
+        "242"
+      ],
+      "definicion": {
+        "identificador": "art_223",
+        "texto": "Se tramitarán por el proceso verbal abreviado los comportamientos contrarios a la convivencia, de competencia de los Inspectores de Policía, los Alcaldes y las autoridades especiales de Policía, en las etapas siguientes:"
+      },
+      "uso": null
+    },
+    {
+      "termino": "registro nacional de medidas correctivas",
+      "frecuencia": 7,
+      "n_articulos": 5,
+      "articulos": [
+        "182",
+        "184",
+        "185A",
+        "185B",
+        "223A"
+      ],
+      "definicion": {
+        "identificador": "art_184",
+        "texto": "La Policía Nacional llevará un registro nacional de medidas correctivas que incluirá la identificación de la persona, el tipo de comportamiento contrario a la convivencia, el tipo de medida correctiva y el estado de pago de la multa o cumplimiento de la medida correctiva."
+      },
+      "uso": null
+    },
+    {
+      "termino": "salarios mínimos diarios legales vigentes",
+      "frecuencia": 4,
+      "n_articulos": 1,
+      "articulos": [
+        "180"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_180",
+        "texto": "Multa Tipo 1: Dos (2) salarios mínimos diarios legales vigentes (smdlv)."
+      }
+    },
+    {
+      "termino": "personal uniformado de la policía nacional",
+      "frecuencia": 33,
+      "n_articulos": 20,
+      "articulos": [
+        "72",
+        "155",
+        "156",
+        "159",
+        "160",
+        "162",
+        "163",
+        "164",
+        "165",
+        "166",
+        "167",
+        "168",
+        "169",
+        "181",
+        "192"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_72",
+        "texto": "El personal uniformado de la Policía Nacional, podrá ingresar a los lugares en que se desarrollen actividades que involucren aglomeraciones de públicos complejas o no complejas, en cualquier momento y solamente para cumplir con su función."
+      }
+    },
+    {
+      "termino": "inspector de policía",
+      "frecuencia": 16,
+      "n_articulos": 13,
+      "articulos": [
+        "79",
+        "82",
+        "179",
+        "181",
+        "185B",
+        "198",
+        "205",
+        "206",
+        "210",
+        "222",
+        "223",
+        "223A",
+        "234A"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_79",
+        "texto": "Para el ejercicio de la acción de Policía en el caso de la perturbación de los derechos de que trata este título, las siguientes personas, podrán instaurar querella ante el inspector de Policía, mediante el procedimiento único estipulado en este Código:"
+      }
+    },
+    {
+      "termino": "corregidor",
+      "frecuencia": 4,
+      "n_articulos": 3,
+      "articulos": [
+        "198",
+        "205",
+        "207"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_205_num_8",
+        "texto": "Resolver el recurso de apelación en el procedimiento verbal abreviado, cuando no exista autoridad especial de Policía en el municipio o distrito a quien se le haya atribuido, en relación con las medidas correctivas que aplican los inspectores de Policía rurales y urbanos o corregidores, en primera instancia."
+      }
+    },
+    {
+      "termino": "comandante de estación",
+      "frecuencia": 7,
+      "n_articulos": 7,
+      "articulos": [
+        "19",
+        "87",
+        "92",
+        "198",
+        "209",
+        "222",
+        "232"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_19",
+        "texto": "Este Comité estará conformado por el Alcalde, el Personero Municipal y el Comandante de Estación del respectivo distrito, municipio o localidad."
+      }
+    },
+    {
+      "termino": "alcalde",
+      "frecuencia": 50,
+      "n_articulos": 36,
+      "articulos": [
+        "14",
+        "15",
+        "17",
+        "19",
+        "29",
+        "30",
+        "34",
+        "36",
+        "37",
+        "49",
+        "54",
+        "57",
+        "59",
+        "60",
+        "61"
+      ],
+      "definicion": {
+        "identificador": "art_204",
+        "texto": "El alcalde es la primera autoridad de Policía del Distrito o Municipio."
+      },
+      "uso": null
+    },
+    {
+      "termino": "sustancias psicoactivas",
+      "frecuencia": 18,
+      "n_articulos": 10,
+      "articulos": [
+        "27",
+        "34",
+        "38",
+        "39",
+        "41",
+        "59",
+        "74",
+        "134",
+        "140",
+        "155"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_27_num_11",
+        "texto": "(sic) Portar armas, elementos y dispositivos menos letales bajo el influjo de sustancias psicoactivas ilícitas o prohibidas, o en estado de embriaguez."
+      }
+    },
+    {
+      "termino": "bebidas alcohólicas",
+      "frecuencia": 16,
+      "n_articulos": 8,
+      "articulos": [
+        "34",
+        "38",
+        "49",
+        "74",
+        "85",
+        "140",
+        "155",
+        "202"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_49",
+        "texto": "En los lugares habilitados para aglomeraciones, se autoriza el consumo de bebidas alcohólicas de acuerdo con las siguientes disposiciones:"
+      }
+    },
+    {
+      "termino": "infracción urbanística",
+      "frecuencia": 22,
+      "n_articulos": 7,
+      "articulos": [
+        "135",
+        "136",
+        "137",
+        "180",
+        "181",
+        "206",
+        "223"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_135_par_7",
+        "texto": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes."
+      }
+    },
+    {
+      "termino": "contaminación visual",
+      "frecuencia": 4,
+      "n_articulos": 4,
+      "articulos": [
+        "51",
+        "140",
+        "180",
+        "181"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_51",
+        "texto": "En caso de daños al espacio público que ocurran con ocasión de actividades de aglomeraciones de público complejas y no complejas se impondrá multa especial por contaminación visual y las medidas correctivas de destrucción del bien y reparación de daños materiales de muebles e inmuebles de que trata el presente Código, a los empresarios del espectáculo público y coordinadores logísticos del evento."
+      }
+    },
+    {
+      "termino": "mascota",
+      "frecuencia": 11,
+      "n_articulos": 8,
+      "articulos": [
+        "101",
+        "117",
+        "120",
+        "122",
+        "123",
+        "124",
+        "134",
+        "146"
+      ],
+      "definicion": null,
+      "uso": {
+        "identificador": "art_117",
+        "texto": "Solo podrán tenerse como mascotas los animales así autorizados por la normatividad vigente."
+      }
+    }
+  ],
+  "candidatos": [
+    {
+      "ngrama": "medidas correctivas",
+      "frecuencia": 104
+    },
+    {
+      "ngrama": "público complejas",
+      "frecuencia": 69
+    },
+    {
+      "ngrama": "aglomeraciones de público complejas",
+      "frecuencia": 69
+    },
+    {
+      "ngrama": "programa comunitario",
+      "frecuencia": 45
+    },
+    {
+      "ngrama": "actividad pedagógica",
+      "frecuencia": 45
+    },
+    {
+      "ngrama": "personal uniformado",
+      "frecuencia": 37
+    },
+    {
+      "ngrama": "organizadores de actividades",
+      "frecuencia": 33
+    },
+    {
+      "ngrama": "autoridad competente",
+      "frecuencia": 31
+    },
+    {
+      "ngrama": "comportamientos de los organizadores",
+      "frecuencia": 30
+    },
+    {
+      "ngrama": "objeto de la aplicación",
+      "frecuencia": 29
+    },
+    {
+      "ngrama": "normas vigentes",
+      "frecuencia": 25
+    },
+    {
+      "ngrama": "comportamiento contrario",
+      "frecuencia": 25
+    },
+    {
+      "ngrama": "normatividad vigente",
+      "frecuencia": 24
+    },
+    {
+      "ngrama": "actividad económica",
+      "frecuencia": 24
+    },
+    {
+      "ngrama": "comportamientos contrarios",
+      "frecuencia": 23
+    },
+    {
+      "ngrama": "daños materiales",
+      "frecuencia": 23
+    },
+    {
+      "ngrama": "suspensión temporal",
+      "frecuencia": 23
+    },
+    {
+      "ngrama": "interés cultural",
+      "frecuencia": 22
+    },
+    {
+      "ngrama": "comportamientos señalados",
+      "frecuencia": 21
+    },
+    {
+      "ngrama": "aglomeración de público",
+      "frecuencia": 19
+    },
+    {
+      "ngrama": "territorio nacional",
+      "frecuencia": 18
+    },
+    {
+      "ngrama": "servicios públicos",
+      "frecuencia": 18
+    },
+    {
+      "ngrama": "transporte público",
+      "frecuencia": 18
+    },
+    {
+      "ngrama": "medida de suspensión",
+      "frecuencia": 18
+    },
+    {
+      "ngrama": "autoridades competentes",
+      "frecuencia": 17
+    },
+    {
+      "ngrama": "público compleja",
+      "frecuencia": 17
+    },
+    {
+      "ngrama": "aglomeración de público compleja",
+      "frecuencia": 17
+    },
+    {
+      "ngrama": "medida de suspensión temporal",
+      "frecuencia": 16
+    },
+    {
+      "ngrama": "manera inmediata",
+      "frecuencia": 15
+    },
+    {
+      "ngrama": "participación en programa",
+      "frecuencia": 15
+    },
+    {
+      "ngrama": "participación en programa comunitario",
+      "frecuencia": 15
+    },
+    {
+      "ngrama": "lugares abiertos",
+      "frecuencia": 14
+    },
+    {
+      "ngrama": "requisitos establecidos",
+      "frecuencia": 14
+    },
+    {
+      "ngrama": "suspensión definitiva",
+      "frecuencia": 14
+    },
+    {
+      "ngrama": "uso público",
+      "frecuencia": 14
+    },
+    {
+      "ngrama": "ejemplares caninos",
+      "frecuencia": 14
+    },
+    {
+      "ngrama": "suspensión de actividad",
+      "frecuencia": 13
+    },
+    {
+      "ngrama": "ingreso a actividad",
+      "frecuencia": 12
+    },
+    {
+      "ngrama": "mantenimiento de inmueble",
+      "frecuencia": 12
+    },
+    {
+      "ngrama": "recurso de apelación",
+      "frecuencia": 12
+    }
+  ]
+}

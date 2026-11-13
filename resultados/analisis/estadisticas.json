@@ -1,0 +1,198 @@
+{
+  "n_articulos": 249,
+  "n_fragmentos": 1125,
+  "n_oraciones": 2640,
+  "n_tokens": 48680,
+  "n_tipos": 4696,
+  "n_lemas": 3418,
+  "relacion_tipo_token": 0.0965,
+  "relacion_lema_token": 0.0702,
+  "sttr_1000": 0.3637,
+  "hapax": 2172,
+  "longitud_fragmento_tokens": {
+    "media": 43.27,
+    "mediana": 30,
+    "desviacion": 46.46,
+    "minimo": 2,
+    "maximo": 644,
+    "p90": 86,
+    "mas_largo": {
+      "identificador": "art_73_par_unico",
+      "tokens": 644
+    }
+  },
+  "longitud_articulo_tokens": {
+    "media": 195.5,
+    "mediana": 115,
+    "desviacion": 221.77,
+    "minimo": 11,
+    "maximo": 1331,
+    "p90": 495,
+    "mas_largo": {
+      "articulo": "135",
+      "tokens": 1331
+    }
+  },
+  "por_libro": {
+    "Libro Primero": {
+      "articulos": 23,
+      "fragmentos": 50,
+      "tokens": 2430
+    },
+    "Libro Segundo": {
+      "articulos": 125,
+      "fragmentos": 710,
+      "tokens": 29251
+    },
+    "Libro Tercero": {
+      "articulos": 101,
+      "fragmentos": 365,
+      "tokens": 16999
+    }
+  },
+  "vigencia": {
+    "vigente": 972,
+    "inexequible_parcial": 7,
+    "inexequible": 146
+  },
+  "pos": {
+    "NOUN": {
+      "n": 12333,
+      "pct": 25.33
+    },
+    "ADP": {
+      "n": 8948,
+      "pct": 18.38
+    },
+    "DET": {
+      "n": 6489,
+      "pct": 13.33
+    },
+    "ADJ": {
+      "n": 5176,
+      "pct": 10.63
+    },
+    "VERB": {
+      "n": 3542,
+      "pct": 7.28
+    },
+    "PROPN": {
+      "n": 3262,
+      "pct": 6.7
+    },
+    "CCONJ": {
+      "n": 2798,
+      "pct": 5.75
+    },
+    "NUM": {
+      "n": 1946,
+      "pct": 4.0
+    },
+    "PRON": {
+      "n": 1917,
+      "pct": 3.94
+    },
+    "ADV": {
+      "n": 865,
+      "pct": 1.78
+    },
+    "AUX": {
+      "n": 864,
+      "pct": 1.77
+    },
+    "SCONJ": {
+      "n": 503,
+      "pct": 1.03
+    },
+    "SYM": {
+      "n": 34,
+      "pct": 0.07
+    },
+    "INTJ": {
+      "n": 2,
+      "pct": 0.0
+    },
+    "PART": {
+      "n": 1,
+      "pct": 0.0
+    }
+  },
+  "entidades": {
+    "AUTORIDAD": {
+      "n": 378,
+      "ejemplos": [
+        "autoridades de policía",
+        "autoridad de policía",
+        "policía nacional",
+        "gobierno nacional",
+        "personal uniformado de la policía nacional",
+        "alcaldes",
+        "alcalde",
+        "inspector de policía"
+      ]
+    },
+    "LUGAR": {
+      "n": 297,
+      "ejemplos": [
+        "inmuebles",
+        "espacio público",
+        "inmueble",
+        "transporte público",
+        "lugares abiertos al público",
+        "parques",
+        "domicilio",
+        "zonas comunes"
+      ]
+    },
+    "PLAZO": {
+      "n": 83,
+      "ejemplos": [
+        "un año",
+        "seis (6) meses",
+        "diez (10) días",
+        "un (1) año",
+        "cinco (5) días siguientes",
+        "cinco (5) días hábiles",
+        "tres (3) años",
+        "doce (12) meses"
+      ]
+    },
+    "ORGANIZACION": {
+      "n": 69,
+      "ejemplos": [
+        "instituto colombiano de antropología e historia",
+        "secretaría de salud",
+        "fuerza pública",
+        "ministerio de tecnologías de la información y las comunicaciones",
+        "contaduría general de la nación",
+        "asamblea departamental",
+        "ministerio de salud",
+        "cámara de comercio"
+      ]
+    },
+    "MONTO": {
+      "n": 58,
+      "ejemplos": [
+        "multa especial",
+        "multas especiales",
+        "dos (2) salarios mínimos diarios legales vigentes (smdlv)",
+        "cuatro (4) salarios mínimos diarios legales vigentes (smdlv)",
+        "ocho (8) salarios mínimos diarios legales vigentes (smdlv)",
+        "dieciséis (16) salarios mínimos diarios legales vigentes (smdlv)",
+        "ciento cincuenta (150) salarios mínimos legales mensuales vigentes",
+        "doscientos cincuenta (250) salarios mínimos legales mensuales vigentes"
+      ]
+    },
+    "PERSONA": {
+      "n": 6,
+      "ejemplos": [
+        "dogo argentino",
+        "fila brasileiro",
+        "bull terrier",
+        "staffordshire terrier",
+        "tosa japonés",
+        "entidades territoriales ccpet"
+      ]
+    }
+  }
+}

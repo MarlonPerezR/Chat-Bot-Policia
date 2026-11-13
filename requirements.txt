@@ -1,0 +1,12 @@
+pymupdf>=1.24      # extractor principal (da la posición de cada bloque)
+pypdf>=4.0         # extractor alternativo (--extractor pypdf)
+ftfy>=6.1          # opcional: reparación de mojibake más completa
+
+# Fase 2: análisis lingüístico
+spacy>=3.7,<3.9    # + modelo: .venv/bin/python -m spacy download es_core_news_md
+
+# Fase 3: embeddings e índice
+sentence-transformers>=3.0   # descarga intfloat/multilingual-e5-base la primera vez
+faiss-cpu>=1.8
+numpy>=1.24
+matplotlib>=3.7    # gráfico PCA de los embeddings

@@ -1,0 +1,321 @@
+{
+  "_descripcion": "Listas curadas a mano para la fase 2. 'glosario' son los términos jurídicos que se buscan en el corpus (frecuencia, artículos y definición). 'sinonimos' relaciona cada término del Código con formas coloquiales para expandir las consultas. 'kwic' son los términos de las concordancias. 'autoridades' y 'lugares' alimentan el reconocedor de entidades. Editable por el equipo.",
+  "kwic": [
+    "multa",
+    "comparendo",
+    "medida correctiva",
+    "espacio público"
+  ],
+  "glosario": [
+    "convivencia",
+    "privacidad",
+    "espacio público",
+    "bienes fiscales",
+    "bienes de uso público",
+    "aglomeraciones de público",
+    "plan de emergencia y contingencia",
+    "estacionamiento",
+    "medio de transporte",
+    "equipo terminal móvil",
+    "orden de policía",
+    "orden de comparendo",
+    "medida correctiva",
+    "medio de policía",
+    "poder de policía",
+    "función de policía",
+    "actividad de policía",
+    "amonestación",
+    "participación en programa comunitario o actividad pedagógica de convivencia",
+    "multa",
+    "multa general",
+    "multa especial",
+    "decomiso",
+    "destrucción de bien",
+    "demolición de obra",
+    "suspensión temporal de actividad",
+    "suspensión definitiva de actividad",
+    "remoción de bienes",
+    "inutilización de bienes",
+    "restitución y protección de bienes inmuebles",
+    "reparación de daños materiales",
+    "traslado por protección",
+    "centro de traslado por protección",
+    "retiro del sitio",
+    "registro",
+    "uso de la fuerza",
+    "aprehensión con fin judicial",
+    "incautación",
+    "proceso verbal inmediato",
+    "proceso verbal abreviado",
+    "registro nacional de medidas correctivas",
+    "salarios mínimos diarios legales vigentes",
+    "personal uniformado de la policía nacional",
+    "inspector de policía",
+    "corregidor",
+    "comandante de estación",
+    "alcalde",
+    "sustancias psicoactivas",
+    "bebidas alcohólicas",
+    "infracción urbanística",
+    "contaminación visual",
+    "mascota"
+  ],
+  "sinonimos": {
+    "orden de comparendo": [
+      "comparendo",
+      "parte",
+      "me hicieron un comparendo",
+      "me pusieron un comparendo",
+      "papeleta"
+    ],
+    "multa general": [
+      "multa",
+      "multa de policía",
+      "sanción económica",
+      "cuánto me toca pagar"
+    ],
+    "multa general tipo 1": [
+      "multa tipo 1",
+      "multa de 2 salarios mínimos diarios"
+    ],
+    "multa general tipo 2": [
+      "multa tipo 2",
+      "multa de 4 salarios mínimos diarios"
+    ],
+    "multa general tipo 3": [
+      "multa tipo 3",
+      "multa de 8 salarios mínimos diarios"
+    ],
+    "multa general tipo 4": [
+      "multa tipo 4",
+      "multa de 16 salarios mínimos diarios"
+    ],
+    "medida correctiva": [
+      "sanción",
+      "castigo",
+      "penalidad",
+      "correctivo"
+    ],
+    "personal uniformado de la policía nacional": [
+      "policía",
+      "policías",
+      "agente",
+      "patrullero",
+      "uniformado",
+      "tombo"
+    ],
+    "traslado por protección": [
+      "me llevaron a la estación",
+      "me subieron a la patrulla",
+      "llevarlo a la UPJ",
+      "retención"
+    ],
+    "centro de traslado por protección": [
+      "UPJ",
+      "CTP",
+      "unidad permanente de justicia"
+    ],
+    "registro": [
+      "requisa",
+      "requisar",
+      "me requisaron",
+      "pedir papeles"
+    ],
+    "registro nacional de medidas correctivas": [
+      "RNMC",
+      "antecedentes de policía",
+      "estar reportado en la policía"
+    ],
+    "inspector de policía": [
+      "inspección de policía",
+      "inspector",
+      "inspección"
+    ],
+    "espacio público": [
+      "la calle",
+      "el andén",
+      "la vía pública",
+      "el parque",
+      "la plaza"
+    ],
+    "riña": [
+      "pelea",
+      "agarrón",
+      "bronca",
+      "pelear en la calle",
+      "reñir"
+    ],
+    "sustancias psicoactivas": [
+      "droga",
+      "drogas",
+      "marihuana",
+      "bareta",
+      "porro",
+      "fumar marihuana"
+    ],
+    "bebidas alcohólicas": [
+      "trago",
+      "licor",
+      "alcohol",
+      "cerveza",
+      "tomar en la calle"
+    ],
+    "armas": [
+      "cuchillo",
+      "navaja",
+      "arma blanca",
+      "machete"
+    ],
+    "mascota": [
+      "perro",
+      "gato",
+      "animal de compañía",
+      "perro de raza peligrosa",
+      "bozal"
+    ],
+    "niños, niñas y adolescentes": [
+      "menor de edad",
+      "menores",
+      "niño",
+      "adolescente"
+    ],
+    "infracción urbanística": [
+      "construir sin licencia",
+      "obra ilegal",
+      "ampliar la casa sin permiso"
+    ],
+    "suspensión temporal de actividad": [
+      "cierre del negocio",
+      "sellamiento",
+      "cerrar el establecimiento"
+    ],
+    "establecimiento": [
+      "negocio",
+      "local",
+      "bar",
+      "discoteca",
+      "tienda"
+    ],
+    "transporte público": [
+      "bus",
+      "TransMilenio",
+      "MIO",
+      "metro",
+      "colarse"
+    ],
+    "amonestación": [
+      "llamado de atención",
+      "regaño"
+    ],
+    "participación en programa comunitario o actividad pedagógica de convivencia": [
+      "curso pedagógico",
+      "curso de convivencia",
+      "taller de convivencia"
+    ],
+    "salarios mínimos diarios legales vigentes": [
+      "SMDLV",
+      "salario mínimo diario"
+    ],
+    "aprehensión con fin judicial": [
+      "captura",
+      "me detuvieron",
+      "arresto"
+    ],
+    "uso de la fuerza": [
+      "me golpearon",
+      "agresión policial",
+      "abuso de la fuerza"
+    ],
+    "pólvora": [
+      "fuegos artificiales",
+      "voladores",
+      "tote",
+      "juegos pirotécnicos"
+    ],
+    "ruido": [
+      "ruido",
+      "bulla",
+      "música a todo volumen",
+      "fiesta ruidosa",
+      "vecino ruidoso"
+    ]
+  },
+  "autoridades": [
+    "personal uniformado de la policía nacional",
+    "policía nacional",
+    "inspector de policía",
+    "inspectores de policía",
+    "corregidor",
+    "corregidores",
+    "comandante de estación",
+    "comandantes de estación",
+    "comandante de subestación",
+    "comandante de centro de atención inmediata",
+    "comandantes de centro de atención inmediata",
+    "alcalde",
+    "alcaldes",
+    "alcalde distrital o municipal",
+    "alcaldes distritales o municipales",
+    "gobernador",
+    "gobernadores",
+    "presidente de la república",
+    "autoridad de policía",
+    "autoridades de policía",
+    "autoridades especiales de policía",
+    "procuraduría general de la nación",
+    "personero",
+    "personería",
+    "defensoría del pueblo",
+    "fiscalía general de la nación",
+    "instituto colombiano de bienestar familiar",
+    "comisario de familia",
+    "comisarías de familia",
+    "consejo de seguridad y convivencia",
+    "ministerio del interior",
+    "ministerio de defensa nacional",
+    "gobierno nacional",
+    "congreso de la república",
+    "corte constitucional",
+    "fuerzas militares"
+  ],
+  "lugares": [
+    "espacio público",
+    "vía pública",
+    "vías públicas",
+    "andén",
+    "andenes",
+    "parque",
+    "parques",
+    "plaza",
+    "plazas",
+    "playa",
+    "playas",
+    "zonas comunes",
+    "sistema de transporte público",
+    "transporte público",
+    "estación",
+    "estaciones",
+    "establecimiento de comercio",
+    "establecimientos de comercio",
+    "establecimiento abierto al público",
+    "establecimientos abiertos al público",
+    "institución educativa",
+    "instituciones educativas",
+    "escenario deportivo",
+    "escenarios deportivos",
+    "centro de traslado por protección",
+    "inmueble",
+    "inmuebles",
+    "domicilio",
+    "lugar abierto al público",
+    "lugares abiertos al público",
+    "sitio público",
+    "sitios públicos",
+    "zona rural",
+    "zonas rurales",
+    "fuentes de agua",
+    "ríos",
+    "humedales",
+    "páramos"
+  ]
+}

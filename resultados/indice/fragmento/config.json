@@ -1,0 +1,18 @@
+{
+  "modelo": "intfloat/multilingual-e5-base",
+  "estrategia": "fragmento",
+  "dimension": 768,
+  "n_vectores": 1125,
+  "tipo_indice": "IndexFlatIP",
+  "metrica": "coseno (vectores normalizados)",
+  "prefijo_consulta": "query: ",
+  "prefijo_pasaje": "passage: ",
+  "umbral_fuera_de_dominio": null,
+  "elegido": true,
+  "tam_ventana": null,
+  "solape": null,
+  "generado": "2026-11-12",
+  "corpus": "datos/corpus.json",
+  "norma": "Ley 1801 de 2016",
+  "fecha_consulta": "2026-11-06"
+}

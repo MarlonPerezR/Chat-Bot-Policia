@@ -1,0 +1,919 @@
+{
+  "terminos": {
+    "orden de comparendo": {
+      "variantes": [
+        "comparendo",
+        "parte",
+        "me hicieron un comparendo",
+        "me pusieron un comparendo",
+        "papeleta"
+      ],
+      "frecuencia_en_corpus": 12,
+      "articulos": [
+        "154",
+        "180",
+        "219",
+        "223A"
+      ]
+    },
+    "multa general": {
+      "variantes": [
+        "multa",
+        "multa de policía",
+        "sanción económica",
+        "cuánto me toca pagar"
+      ],
+      "frecuencia_en_corpus": 236,
+      "articulos": [
+        "27",
+        "28",
+        "30",
+        "33",
+        "34",
+        "35",
+        "38",
+        "40",
+        "44",
+        "45"
+      ]
+    },
+    "multa general tipo 1": {
+      "variantes": [
+        "multa tipo 1",
+        "multa de 2 salarios mínimos diarios"
+      ],
+      "frecuencia_en_corpus": 30,
+      "articulos": [
+        "33",
+        "38",
+        "40",
+        "59",
+        "74",
+        "88",
+        "93",
+        "94",
+        "103",
+        "124"
+      ]
+    },
+    "multa general tipo 2": {
+      "variantes": [
+        "multa tipo 2",
+        "multa de 4 salarios mínimos diarios"
+      ],
+      "frecuencia_en_corpus": 35,
+      "articulos": [
+        "27",
+        "33",
+        "35",
+        "38",
+        "78",
+        "92",
+        "95",
+        "103",
+        "110",
+        "111"
+      ]
+    },
+    "multa general tipo 3": {
+      "variantes": [
+        "multa tipo 3",
+        "multa de 8 salarios mínimos diarios"
+      ],
+      "frecuencia_en_corpus": 39,
+      "articulos": [
+        "27",
+        "28",
+        "33",
+        "34",
+        "40",
+        "44",
+        "46",
+        "59",
+        "74",
+        "77"
+      ]
+    },
+    "multa general tipo 4": {
+      "variantes": [
+        "multa tipo 4",
+        "multa de 16 salarios mínimos diarios"
+      ],
+      "frecuencia_en_corpus": 121,
+      "articulos": [
+        "28",
+        "30",
+        "34",
+        "35",
+        "38",
+        "40",
+        "44",
+        "45",
+        "46",
+        "53"
+      ]
+    },
+    "medida correctiva": {
+      "variantes": [
+        "sanción",
+        "castigo",
+        "penalidad",
+        "correctivo"
+      ],
+      "frecuencia_en_corpus": 171,
+      "articulos": [
+        "8",
+        "10",
+        "11",
+        "12",
+        "13",
+        "17",
+        "20",
+        "25",
+        "27",
+        "28"
+      ]
+    },
+    "personal uniformado de la policía nacional": {
+      "variantes": [
+        "policía",
+        "policías",
+        "agente",
+        "patrullero",
+        "uniformado",
+        "tombo"
+      ],
+      "frecuencia_en_corpus": 33,
+      "articulos": [
+        "72",
+        "155",
+        "156",
+        "159",
+        "160",
+        "162",
+        "163",
+        "164",
+        "165",
+        "166"
+      ]
+    },
+    "traslado por protección": {
+      "variantes": [
+        "me llevaron a la estación",
+        "me subieron a la patrulla",
+        "llevarlo a la UPJ",
+        "retención"
+      ],
+      "frecuencia_en_corpus": 12,
+      "articulos": [
+        "149",
+        "155"
+      ]
+    },
+    "centro de traslado por protección": {
+      "variantes": [
+        "UPJ",
+        "CTP",
+        "unidad permanente de justicia"
+      ],
+      "frecuencia_en_corpus": 7,
+      "articulos": [
+        "155"
+      ]
+    },
+    "registro": {
+      "variantes": [
+        "requisa",
+        "requisar",
+        "me requisaron",
+        "pedir papeles"
+      ],
+      "frecuencia_en_corpus": 58,
+      "articulos": [
+        "68",
+        "79",
+        "82",
+        "87",
+        "92",
+        "95",
+        "101",
+        "105",
+        "112",
+        "124"
+      ]
+    },
+    "registro nacional de medidas correctivas": {
+      "variantes": [
+        "RNMC",
+        "antecedentes de policía",
+        "estar reportado en la policía"
+      ],
+      "frecuencia_en_corpus": 7,
+      "articulos": [
+        "182",
+        "184",
+        "185A",
+        "185B",
+        "223A"
+      ]
+    },
+    "inspector de policía": {
+      "variantes": [
+        "inspección de policía",
+        "inspector",
+        "inspección"
+      ],
+      "frecuencia_en_corpus": 16,
+      "articulos": [
+        "79",
+        "82",
+        "179",
+        "181",
+        "185B",
+        "198",
+        "205",
+        "206",
+        "210",
+        "222"
+      ]
+    },
+    "espacio público": {
+      "variantes": [
+        "la calle",
+        "el andén",
+        "la vía pública",
+        "el parque",
+        "la plaza"
+      ],
+      "frecuencia_en_corpus": 56,
+      "articulos": [
+        "2",
+        "30",
+        "32",
+        "33",
+        "34",
+        "36",
+        "40",
+        "47",
+        "49",
+        "50"
+      ]
+    },
+    "riña": {
+      "variantes": [
+        "pelea",
+        "agarrón",
+        "bronca",
+        "pelear en la calle",
+        "reñir"
+      ],
+      "frecuencia_en_corpus": 2,
+      "articulos": [
+        "93",
+        "155"
+      ]
+    },
+    "sustancias psicoactivas": {
+      "variantes": [
+        "droga",
+        "drogas",
+        "marihuana",
+        "bareta",
+        "porro",
+        "fumar marihuana"
+      ],
+      "frecuencia_en_corpus": 18,
+      "articulos": [
+        "27",
+        "34",
+        "38",
+        "39",
+        "41",
+        "59",
+        "74",
+        "134",
+        "140",
+        "155"
+      ]
+    },
+    "bebidas alcohólicas": {
+      "variantes": [
+        "trago",
+        "licor",
+        "alcohol",
+        "cerveza",
+        "tomar en la calle"
+      ],
+      "frecuencia_en_corpus": 16,
+      "articulos": [
+        "34",
+        "38",
+        "49",
+        "74",
+        "85",
+        "140",
+        "155",
+        "202"
+      ]
+    },
+    "armas": {
+      "variantes": [
+        "cuchillo",
+        "navaja",
+        "arma blanca",
+        "machete"
+      ],
+      "frecuencia_en_corpus": 19,
+      "articulos": [
+        "27",
+        "38",
+        "59",
+        "74",
+        "93",
+        "116",
+        "149",
+        "159",
+        "165",
+        "183"
+      ]
+    },
+    "mascota": {
+      "variantes": [
+        "perro",
+        "gato",
+        "animal de compañía",
+        "perro de raza peligrosa",
+        "bozal"
+      ],
+      "frecuencia_en_corpus": 11,
+      "articulos": [
+        "101",
+        "117",
+        "120",
+        "122",
+        "123",
+        "124",
+        "134",
+        "146"
+      ]
+    },
+    "niños, niñas y adolescentes": {
+      "variantes": [
+        "menor de edad",
+        "menores",
+        "niño",
+        "adolescente"
+      ],
+      "frecuencia_en_corpus": 25,
+      "articulos": [
+        "8",
+        "34",
+        "36",
+        "37",
+        "38",
+        "39",
+        "43",
+        "92",
+        "93",
+        "162"
+      ]
+    },
+    "infracción urbanística": {
+      "variantes": [
+        "construir sin licencia",
+        "obra ilegal",
+        "ampliar la casa sin permiso"
+      ],
+      "frecuencia_en_corpus": 22,
+      "articulos": [
+        "135",
+        "136",
+        "137",
+        "180",
+        "181",
+        "206",
+        "223"
+      ]
+    },
+    "suspensión temporal de actividad": {
+      "variantes": [
+        "cierre del negocio",
+        "sellamiento",
+        "cerrar el establecimiento"
+      ],
+      "frecuencia_en_corpus": 105,
+      "articulos": [
+        "30",
+        "34",
+        "38",
+        "44",
+        "88",
+        "92",
+        "93",
+        "94",
+        "95",
+        "100"
+      ]
+    },
+    "establecimiento": {
+      "variantes": [
+        "negocio",
+        "local",
+        "bar",
+        "discoteca",
+        "tienda"
+      ],
+      "frecuencia_en_corpus": 49,
+      "articulos": [
+        "34",
+        "37",
+        "43",
+        "44",
+        "46",
+        "49",
+        "61",
+        "84",
+        "85",
+        "86"
+      ]
+    },
+    "transporte público": {
+      "variantes": [
+        "bus",
+        "TransMilenio",
+        "MIO",
+        "metro",
+        "colarse"
+      ],
+      "frecuencia_en_corpus": 21,
+      "articulos": [
+        "30",
+        "40",
+        "54",
+        "118",
+        "123",
+        "124",
+        "134",
+        "140",
+        "146",
+        "148"
+      ]
+    },
+    "amonestación": {
+      "variantes": [
+        "llamado de atención",
+        "regaño"
+      ],
+      "frecuencia_en_corpus": 30,
+      "articulos": [
+        "27",
+        "33",
+        "39",
+        "40",
+        "44",
+        "59",
+        "74",
+        "94",
+        "100",
+        "101"
+      ]
+    },
+    "participación en programa comunitario o actividad pedagógica de convivencia": {
+      "variantes": [
+        "curso pedagógico",
+        "curso de convivencia",
+        "taller de convivencia"
+      ],
+      "frecuencia_en_corpus": 43,
+      "articulos": [
+        "27",
+        "35",
+        "39",
+        "45",
+        "59",
+        "74",
+        "92",
+        "101",
+        "111",
+        "115"
+      ]
+    },
+    "salarios mínimos diarios legales vigentes": {
+      "variantes": [
+        "SMDLV",
+        "salario mínimo diario"
+      ],
+      "frecuencia_en_corpus": 4,
+      "articulos": [
+        "180"
+      ]
+    },
+    "aprehensión con fin judicial": {
+      "variantes": [
+        "captura",
+        "me detuvieron",
+        "arresto"
+      ],
+      "frecuencia_en_corpus": 1,
+      "articulos": [
+        "149"
+      ]
+    },
+    "uso de la fuerza": {
+      "variantes": [
+        "me golpearon",
+        "agresión policial",
+        "abuso de la fuerza"
+      ],
+      "frecuencia_en_corpus": 9,
+      "articulos": [
+        "10",
+        "56",
+        "140",
+        "149",
+        "162",
+        "166"
+      ]
+    },
+    "pólvora": {
+      "variantes": [
+        "fuegos artificiales",
+        "voladores",
+        "tote",
+        "juegos pirotécnicos"
+      ],
+      "frecuencia_en_corpus": 3,
+      "articulos": [
+        "30",
+        "38",
+        "163"
+      ]
+    },
+    "ruido": {
+      "variantes": [
+        "ruido",
+        "bulla",
+        "música a todo volumen",
+        "fiesta ruidosa",
+        "vecino ruidoso"
+      ],
+      "frecuencia_en_corpus": 7,
+      "articulos": [
+        "33",
+        "73",
+        "84",
+        "93"
+      ]
+    }
+  },
+  "indice_inverso": {
+    "comparendo": [
+      "orden de comparendo"
+    ],
+    "parte": [
+      "orden de comparendo"
+    ],
+    "me hicieron un comparendo": [
+      "orden de comparendo"
+    ],
+    "me pusieron un comparendo": [
+      "orden de comparendo"
+    ],
+    "papeleta": [
+      "orden de comparendo"
+    ],
+    "multa": [
+      "multa general"
+    ],
+    "multa de policia": [
+      "multa general"
+    ],
+    "sancion economica": [
+      "multa general"
+    ],
+    "cuanto me toca pagar": [
+      "multa general"
+    ],
+    "multa tipo 1": [
+      "multa general tipo 1"
+    ],
+    "multa de 2 salarios minimos diarios": [
+      "multa general tipo 1"
+    ],
+    "multa tipo 2": [
+      "multa general tipo 2"
+    ],
+    "multa de 4 salarios minimos diarios": [
+      "multa general tipo 2"
+    ],
+    "multa tipo 3": [
+      "multa general tipo 3"
+    ],
+    "multa de 8 salarios minimos diarios": [
+      "multa general tipo 3"
+    ],
+    "multa tipo 4": [
+      "multa general tipo 4"
+    ],
+    "multa de 16 salarios minimos diarios": [
+      "multa general tipo 4"
+    ],
+    "sancion": [
+      "medida correctiva"
+    ],
+    "castigo": [
+      "medida correctiva"
+    ],
+    "penalidad": [
+      "medida correctiva"
+    ],
+    "correctivo": [
+      "medida correctiva"
+    ],
+    "policia": [
+      "personal uniformado de la policía nacional"
+    ],
+    "policias": [
+      "personal uniformado de la policía nacional"
+    ],
+    "agente": [
+      "personal uniformado de la policía nacional"
+    ],
+    "patrullero": [
+      "personal uniformado de la policía nacional"
+    ],
+    "uniformado": [
+      "personal uniformado de la policía nacional"
+    ],
+    "tombo": [
+      "personal uniformado de la policía nacional"
+    ],
+    "me llevaron a la estacion": [
+      "traslado por protección"
+    ],
+    "me subieron a la patrulla": [
+      "traslado por protección"
+    ],
+    "llevarlo a la upj": [
+      "traslado por protección"
+    ],
+    "retencion": [
+      "traslado por protección"
+    ],
+    "upj": [
+      "centro de traslado por protección"
+    ],
+    "ctp": [
+      "centro de traslado por protección"
+    ],
+    "unidad permanente de justicia": [
+      "centro de traslado por protección"
+    ],
+    "requisa": [
+      "registro"
+    ],
+    "requisar": [
+      "registro"
+    ],
+    "me requisaron": [
+      "registro"
+    ],
+    "pedir papeles": [
+      "registro"
+    ],
+    "rnmc": [
+      "registro nacional de medidas correctivas"
+    ],
+    "antecedentes de policia": [
+      "registro nacional de medidas correctivas"
+    ],
+    "estar reportado en la policia": [
+      "registro nacional de medidas correctivas"
+    ],
+    "inspeccion de policia": [
+      "inspector de policía"
+    ],
+    "inspector": [
+      "inspector de policía"
+    ],
+    "inspeccion": [
+      "inspector de policía"
+    ],
+    "la calle": [
+      "espacio público"
+    ],
+    "el anden": [
+      "espacio público"
+    ],
+    "la via publica": [
+      "espacio público"
+    ],
+    "el parque": [
+      "espacio público"
+    ],
+    "la plaza": [
+      "espacio público"
+    ],
+    "pelea": [
+      "riña"
+    ],
+    "agarron": [
+      "riña"
+    ],
+    "bronca": [
+      "riña"
+    ],
+    "pelear en la calle": [
+      "riña"
+    ],
+    "renir": [
+      "riña"
+    ],
+    "droga": [
+      "sustancias psicoactivas"
+    ],
+    "drogas": [
+      "sustancias psicoactivas"
+    ],
+    "marihuana": [
+      "sustancias psicoactivas"
+    ],
+    "bareta": [
+      "sustancias psicoactivas"
+    ],
+    "porro": [
+      "sustancias psicoactivas"
+    ],
+    "fumar marihuana": [
+      "sustancias psicoactivas"
+    ],
+    "trago": [
+      "bebidas alcohólicas"
+    ],
+    "licor": [
+      "bebidas alcohólicas"
+    ],
+    "alcohol": [
+      "bebidas alcohólicas"
+    ],
+    "cerveza": [
+      "bebidas alcohólicas"
+    ],
+    "tomar en la calle": [
+      "bebidas alcohólicas"
+    ],
+    "cuchillo": [
+      "armas"
+    ],
+    "navaja": [
+      "armas"
+    ],
+    "arma blanca": [
+      "armas"
+    ],
+    "machete": [
+      "armas"
+    ],
+    "perro": [
+      "mascota"
+    ],
+    "gato": [
+      "mascota"
+    ],
+    "animal de compania": [
+      "mascota"
+    ],
+    "perro de raza peligrosa": [
+      "mascota"
+    ],
+    "bozal": [
+      "mascota"
+    ],
+    "menor de edad": [
+      "niños, niñas y adolescentes"
+    ],
+    "menores": [
+      "niños, niñas y adolescentes"
+    ],
+    "nino": [
+      "niños, niñas y adolescentes"
+    ],
+    "adolescente": [
+      "niños, niñas y adolescentes"
+    ],
+    "construir sin licencia": [
+      "infracción urbanística"
+    ],
+    "obra ilegal": [
+      "infracción urbanística"
+    ],
+    "ampliar la casa sin permiso": [
+      "infracción urbanística"
+    ],
+    "cierre del negocio": [
+      "suspensión temporal de actividad"
+    ],
+    "sellamiento": [
+      "suspensión temporal de actividad"
+    ],
+    "cerrar el establecimiento": [
+      "suspensión temporal de actividad"
+    ],
+    "negocio": [
+      "establecimiento"
+    ],
+    "local": [
+      "establecimiento"
+    ],
+    "bar": [
+      "establecimiento"
+    ],
+    "discoteca": [
+      "establecimiento"
+    ],
+    "tienda": [
+      "establecimiento"
+    ],
+    "bus": [
+      "transporte público"
+    ],
+    "transmilenio": [
+      "transporte público"
+    ],
+    "mio": [
+      "transporte público"
+    ],
+    "metro": [
+      "transporte público"
+    ],
+    "colarse": [
+      "transporte público"
+    ],
+    "llamado de atencion": [
+      "amonestación"
+    ],
+    "regano": [
+      "amonestación"
+    ],
+    "curso pedagogico": [
+      "participación en programa comunitario o actividad pedagógica de convivencia"
+    ],
+    "curso de convivencia": [
+      "participación en programa comunitario o actividad pedagógica de convivencia"
+    ],
+    "taller de convivencia": [
+      "participación en programa comunitario o actividad pedagógica de convivencia"
+    ],
+    "smdlv": [
+      "salarios mínimos diarios legales vigentes"
+    ],
+    "salario minimo diario": [
+      "salarios mínimos diarios legales vigentes"
+    ],
+    "captura": [
+      "aprehensión con fin judicial"
+    ],
+    "me detuvieron": [
+      "aprehensión con fin judicial"
+    ],
+    "arresto": [
+      "aprehensión con fin judicial"
+    ],
+    "me golpearon": [
+      "uso de la fuerza"
+    ],
+    "agresion policial": [
+      "uso de la fuerza"
+    ],
+    "abuso de la fuerza": [
+      "uso de la fuerza"
+    ],
+    "fuegos artificiales": [
+      "pólvora"
+    ],
+    "voladores": [
+      "pólvora"
+    ],
+    "tote": [
+      "pólvora"
+    ],
+    "juegos pirotecnicos": [
+      "pólvora"
+    ],
+    "ruido": [
+      "ruido"
+    ],
+    "bulla": [
+      "ruido"
+    ],
+    "musica a todo volumen": [
+      "ruido"
+    ],
+    "fiesta ruidosa": [
+      "ruido"
+    ],
+    "vecino ruidoso": [
+      "ruido"
+    ]
+  }
+}

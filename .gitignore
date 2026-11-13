@@ -1,0 +1,12 @@
+# Entorno y cachés
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Claves de API (RNF2): nunca al repositorio
+.env
+
+# Índices y embeddings: se regeneran con src/indexacion.py (13 MB)
+resultados/indice/*/indice.faiss
+resultados/indice/*/embeddings.npy
