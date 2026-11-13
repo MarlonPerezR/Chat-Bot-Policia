@@ -1,0 +1,22 @@
+// Tokens de diseño tomados del mockup "Centro de Mando" (Main.dc.html).
+export const t = {
+  bg: "#F1F6EF",
+  green: "#2E5A3E",
+  greenSoft: "#6E9A7D",
+  ink: "#1C2A21",
+  ink2: "#27362C",
+  muted: "#5E7266",
+  muted2: "#4A5D51",
+  muted3: "#3C4C41",
+  card: "#FFFFFF",
+  tintA: "#E3F0E4",
+  tintB: "#DDEFDF",
+  tintC: "#EEF4EC",
+  border: "#D7E4D6",
+  badgeInk: "#245237",
+  placeholder: "#86988B",
+  sans: "'Montserrat', system-ui, sans-serif",
+  display: "'Poppins', sans-serif",
+  shadowSearch: "0 16px 40px -24px rgba(37,74,50,.45)",
+  shadowCard: "0 10px 28px -22px rgba(37,74,50,.4)",
+};

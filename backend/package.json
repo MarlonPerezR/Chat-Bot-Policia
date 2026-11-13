@@ -1,0 +1,17 @@
+{
+  "name": "lexpolicia-backend",
+  "version": "1.0.0",
+  "description": "API (Express) del asistente LexPolicía AI sobre la Ley 1801 de 2016 — RAG con Gemini.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build-index": "node build-index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
