@@ -46,6 +46,16 @@ Proyecto IA/
 
 Requisitos: **Node.js 18+** (probado con Node 24). No necesitas Python.
 
+### 0) Clonar (en otro PC)
+
+```bash
+git clone https://github.com/MarlonPerezR/Chat-Bot-Policia.git
+cd Chat-Bot-Policia
+git checkout feat/frontend-react-backend-node
+```
+
+> Guía completa de instalación paso a paso en **`CLAUDE.md`**.
+
 ### 1) Backend
 
 ```bash
