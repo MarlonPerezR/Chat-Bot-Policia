@@ -22,7 +22,7 @@ function embedModel() {
 const EMBED_DIM = 768;
 
 function chatModel() {
-  return process.env.GEMINI_CHAT_MODEL || "gemini-2.5-flash";
+  return process.env.GEMINI_CHAT_MODEL || "gemini-flash-lite-latest";
 }
 
 async function callGemini(path, body) {

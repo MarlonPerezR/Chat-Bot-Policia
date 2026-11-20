@@ -80,7 +80,7 @@ app.get("/api/health", (req, res) => {
     ok: !!buscador,
     fragmentos: corpus.length,
     motor: modoBusqueda,
-    modeloChat: process.env.GEMINI_CHAT_MODEL || "gemini-2.5-flash",
+    modeloChat: process.env.GEMINI_CHAT_MODEL || "gemini-flash-lite-latest",
     error: errorArranque,
   });
 });
