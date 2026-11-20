@@ -1,0 +1,54 @@
+@startuml LexPolicia_Secuencia_Consulta
+title LexPolicía AI — Secuencia de una consulta (RAG, motor léxico actual)
+
+actor Ciudadano as U
+participant "SearchBar.jsx" as SB
+participant "App.jsx" as App
+participant "api.js" as Api
+participant "Vite proxy\n(:5173 -> :3001)" as Proxy
+participant "server.js\nPOST /api/consultar" as Srv
+participant "retrieval.js\nMotorLexico (BM25)" as Ret
+participant "gemini.js" as GC
+participant "Gemini API\ngemini-flash-lite-latest" as G
+
+U -> SB : escribe pregunta + Enter
+SB -> SB : submit(): trim, valida, limpia input
+SB -> App : onQuery(consulta)
+
+App -> App : push mensaje usuario\n+ mensaje assistant {loading:true}
+note right of App : UI cambia Home -> Chat\ny muestra puntos animados
+
+App -> Api : consultar(consulta, k=5)
+Api -> Proxy : POST /api/consultar\n{ consulta, k }
+Proxy -> Srv : reenvía al backend
+
+Srv -> Srv : valida consulta (400 si vacía)\nnormaliza k a 1..10
+Srv -> Ret : buscar(consulta, 5, excluirInexequibles=true)
+
+Ret -> Ret : tokeniza (quita tildes + stopwords)
+Ret -> Ret : puntúa fragmentos con BM25\n(k1=1.5, b=0.75)
+Ret -> Ret : ordena, descarta puntaje 0,\nsalta inexequibles, normaliza %
+Ret --> Srv : { fuentes[], fueraDeDominio }
+
+alt fueraDeDominio == true
+  Srv -> Srv : respuesta fija\n(no llama a Gemini)
+else hay fragmentos relevantes
+  Srv -> Srv : construirPrompt(consulta, fragmentos)
+  Srv -> GC : generarRespuesta(SYSTEM_PROMPT + prompt)
+  GC -> G : POST :generateContent
+  G --> GC : texto redactado (cita Art. N)
+  GC --> Srv : respuesta
+end
+
+Srv --> Api : 200 JSON\n{ consulta, respuesta, fuera_de_dominio, fuentes }
+Api --> App : data
+
+alt éxito
+  App -> App : reemplaza mensaje loading\npor { content, fuentes }
+else error (catch)
+  App -> App : mensaje { error:true }
+end
+
+App -> U : Message.formatear() (negrita Art. N)\n+ Sources (tarjetas por fragmento)\n+ scroll automático
+
+@enduml

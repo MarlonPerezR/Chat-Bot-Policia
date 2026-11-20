@@ -1,0 +1,73 @@
+@startuml LexPolicia_Arquitectura
+title LexPolicía AI — Arquitectura actual (rama feat/frontend-react-backend-node)
+
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam defaultTextAlignment center
+
+actor "Ciudadano" as User
+
+package "Frontend — Vite + React\n(localhost:5173)" as FE {
+  [App.jsx\nestado: messages, loading] as App
+  [Home.jsx / Chat.jsx] as Views
+  [SearchBar.jsx] as Search
+  [Message.jsx + Sources.jsx] as Render
+  [api.js\nfetch /api/*] as ApiClient
+  [vite.config.js\nproxy /api -> :3001] as Proxy
+}
+
+package "Backend — Express (Node)\n(localhost:3001)" as BE {
+  [server.js\nRAG: rutas + prompt] as Server
+  [retrieval.js\ncrearBuscador()] as Retrieval
+  [gemini.js\ncliente REST] as GeminiClient
+
+  database "data/corpus.json\n1.125 fragmentos" as Corpus
+  database "data/embeddings.json\n(opcional, no existe)" as Emb
+
+  component "MotorLexico (BM25)\n** ACTIVO **" as BM25
+  component "MotorSemantico (coseno)\n(inactivo: falta índice)" as Sem
+}
+
+cloud "Google Gemini API\ngenerativelanguage.googleapis.com" as Gemini {
+  [gemini-flash-lite-latest\n(chat / redacción)] as Chat
+  [gemini-embedding-001\n(solo build-index / semántico)] as Embed
+}
+
+User --> Search : escribe consulta
+Search --> App : onQuery()
+App --> ApiClient : consultar(texto)
+ApiClient --> Proxy : POST /api/consultar
+Proxy --> Server : reenvía a :3001
+
+Server --> Retrieval : buscar(consulta, k=5)
+Retrieval --> Corpus : carga corpus
+Retrieval ..> Emb : ¿existe índice?
+Retrieval --> BM25 : sí (actual)
+Retrieval ..> Sem : si hubiera embeddings
+BM25 --> Server : fuentes + fueraDeDominio
+
+Server --> GeminiClient : generarRespuesta(system + fragmentos)
+GeminiClient --> Chat : POST :generateContent
+Chat --> GeminiClient : texto redactado
+GeminiClient --> Server : respuesta
+
+Server --> ApiClient : JSON { respuesta, fuentes, fuera_de_dominio }
+ApiClient --> App : actualiza messages
+App --> Render : pinta respuesta + tarjetas de fuentes
+Render --> User : muestra artículos citados
+
+Sem ..> Embed : (solo si semántico)\nembeddings de la consulta
+
+note right of Server
+  SYSTEM_PROMPT:
+  responder SOLO con los
+  fragmentos recuperados,
+  citar "Art. N", no inventar
+end note
+
+note bottom of BM25
+  Patrón RAG:
+  el backend RECUPERA fragmentos reales,
+  Gemini solo los REDACTA
+end note
+@enduml
